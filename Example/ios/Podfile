@@ -36,7 +36,7 @@ target 'Example' do
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
   pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
   pod 'RNImageCropPicker', :path =>  '../node_modules/react-native-image-crop-picker'
-
+  pod 'RNDateTimePicker', :path => '../node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec'
   target 'ExampleTests' do
     inherit! :search_paths
     # Pods for testing
